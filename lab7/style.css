@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    padding: 25px;
+}
+
+.navigation {
+    background-color: #ffb400;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.navItem {
+    list-style: none;
+}
+
+.navItem a {
+    color: black;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+
+    transition: filter .3s ease-in-out;
+
+    background-color: #ffb400;
+}
+
+.navItem a:hover {
+    filter: brightness(0.8);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.museimInfo {
+    display: flex;
+    gap: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.galleryItem  img{
+    max-width: 500px;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab6</title>
+    <style>
+        .upperList {
+            list-style-image: url('./marker.jpg');
+        }
+
+        #lowerList li {
+            list-style-type: upper-latin !important;
+            color: teal;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:link {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Понтрягин Лев Семёнович</h1>
+
+        <ul class="upperList">
+            <li>
+                <ol style="list-style-type: upper-latin !important;color: teal;">
+                    <li>21 августа [3 сентября] 1908 - рождение</li>
+                    <li>3 мая 1988 - смерть</li>
+                    <li>В 14 лет Лев потерял зрение в результате несчастного случая</li>
+                </ol>
+            </li>
+            <li>
+                <ol id="lowerList" style="list-style-type: upper-latin !important;color: teal;">
+                    <li>Поступлению в университет - в 1925 году</li>
+                    <li>В 1930 году Понтрягина зачислили доцентом кафедры алгебры Московского университета</li>
+                    <li>Публичная травля Н. Н. Лузина была начата статьями в газете «Правда»: 2 июля 1936 года</li>
+                </ol>
+            </li>
+        </ul>
+
+        <div class="links">
+            <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BD%D1%82%D1%80%D1%8F%D0%B3%D0%B8%D0%BD,_%D0%9B%D0%B5%D0%B2_%D0%A1%D0%B5%D0%BC%D1%91%D0%BD%D0%BE%D0%B2%D0%B8%D1%87" target="_blank">Ресурс 1</a>
+            <a href="https://www.miloserdie.ru/article/zhizn-slepogo-geniya-matematika-lva-pontryagina-on-ne-dolzhen-byt-invalidom/" target="_blank">Ресурс 2</a>
+            <a href="https://cs.msu.ru/persons/47" target="_blank" style="cursor: help;">Ресурс 3</a>
+        </div>
+    </div>
+</body>
+</html>

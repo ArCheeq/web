@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+        h1, h2, h3, h4, h5 {
+            margin: 0;
+        }
+        text {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="#bottom">Ссылка, по которой осуществляется переход в конец страницы.</a> <br>
+    <a href="#*">Ссылка на *</a> <br>
+    <a href="mailto: vacuumqp@gmail.com">Ссылка на адрес электронной почты.</a> <br>
+    <a href="http://www.kpi.kharkov.ua/ua/home/ds/">Ссылка на адрес страницы дворца студентов НТУ «ХПИ»</a> <br>
+    <a href="lab1.html">Ссылка на файл с расширением .html, подготовленный в первой лабораторной работе.</a> <br>
+    <a href="#seccondList">Ссылка, по которой осуществляется переход к Пункту 2.2.2 списка.</a> <br>
+    <h1><span style="color: red;">С</span><span style="color: orange; text-decoration: 
+    underline;">П</span><span style="color: yellow;">И</span><span style="color: green; text-decoration: underline;">С</span><span style="color: blue;
+    ">К</span><span style="color: purple; text-decoration: underline">И</span></h1>
+    <ul style="list-style: none;">
+        <li>
+            <h2>ПУНКТ 1</h2>
+            <ol type="I" start="5" style="font-weight: 700; font-size: 20px;">
+                <li>
+                    <h3 style="text-decoration: underline;">Пункт 1.1</h3>
+                    <ol style="font-weight: 400;">
+                        <li><sub>Пункт</sub> 1.1.1</li>
+                        <li><sub>Пункт</sub> 1.1.2</li>
+                        <li><sub>Пункт</sub> 1.1.3</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3 style="text-decoration: underline;">Пункт 1.2</h3>
+                    <ol style="padding: 0; text-decoration: line-through;" type="I">
+                        <li><h3>Пункт 1.2.1</h3></li>
+                        <li><h3>Пункт 1.2.2</h3></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <h2>ПУНКТ 2</h2>
+            <ol type="A" style="font-weight: 700;">
+                <li>
+                    <h3 style="font-style: italic;">Пункт 1</h3>
+                    <ul style="list-style: disc; padding-left: 10px; font-weight: 400;">
+                        <li>
+                            <span style="text-decoration: line-through;">Пункт 2.1.1</span>
+                            <ul style="list-style: none;">
+                                <li><a href="">Ссылка, по которой осуществляется переход в начало страницы.</a></li>
+                            </ul>
+                        </li>
+                        <li style="text-decoration: line-through;">Пункт 2.1.2</li>
+                        <li style="text-decoration: line-through;">Пункт 2.1.3</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 style="font-style: italic;">Пункт 2</h3>
+                    <ul style="text-decoration: underline; padding-left: 10px; font-weight: 400;">
+                        <li style="list-style: disc;">Пункт 2.2.1</li>
+                        <li> <a name="seccondList"></a>Пункт 2.2.2</li>
+                        <li style="list-style: disc;">Пункт 2.2.3</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <h2>ПУНКТ 3</h2>
+            <ul style="list-style: none;">
+                <li style="text-decoration: underline;">Определение пункта 3</li>
+                <li style="padding-left: 300px;"><a name="*">*</a></li>
+                <li style="text-decoration: underline; font-weight: 700;">Другое определение пункта 3</li>
+            </ul>
+        </li>
+    </ul>
+    <a name="bottom"></a>
+    <hr style="width: 100%; height: 5px; background-color: blueviolet; margin-bottom: 20px;">
+    <marquee behavior="scroll" direction="left">«Работа выполнена студентом: Чаплин Артём»</marquee>
+</body>
+</html>

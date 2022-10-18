@@ -1,0 +1,50 @@
+.wrapper {
+    height: 100vh;
+    padding: 100px 50px;
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/300px-McDonald%27s_Golden_Arches.svg.png');
+    background-repeat: no-repeat;
+    background-position: 97% 95%;
+    background-attachment: fixed;
+}
+
+.title {
+    color: orange;
+}
+
+.info {
+    color: silver;
+    font-style: italic;
+}
+
+/* .historyTitle {
+    color: aqua;
+    font-size: 11px;
+} */
+
+.history {
+    color: lime;
+}
+
+html body div p span {
+    font-weight: bold;
+    font-size: 24px;
+    color: orange;
+}
+
+.fParagr {
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: line-through;
+    color: green;
+}
+
+.sParagr {
+    text-align: right;
+    word-spacing: 8px;
+}
+
+.tParagr {
+    text-indent: 15%;
+    font-family: 'Courier New', Courier, monospace;
+}
