@@ -56,3 +56,14 @@ h1, h2 {
     max-width: 500px;
 }
 
+table {
+    margin: 0px auto;
+}
+
+table tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+table tr:nth-child(2n) {
+    background-color: bisque;
+}
