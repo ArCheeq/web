@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        body {
+            padding: lightgray;
+        }
+
+        form {
+            padding: 30px 25px;
+            width: 450px;
+            margin: 15px auto;
+
+            display: flex;
+            flex-direction: column;
+
+            text-align: center;
+
+            box-shadow: 10px 10px 26px 6px rgba(238, 115, 0, 0.55);
+            background-color: rgba(238, 115, 0, 0.842);
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        
+        h3 {
+            margin: 0px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .email, .tel {
+            margin: 0px auto;
+            width: 250px;
+            margin-bottom: 20px;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .radio {
+            margin-bottom: 20px;
+        }
+
+        select {
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            margin-bottom: 20px;
+            resize: none;
+        }
+
+        button {
+            font-size: 18px;
+            margin: 0px auto;
+            max-width: 200px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2>Форма обратной связи</h2>
+
+        <h3>Ваш email:</h3>
+        <input type="email" id="email" class="email" placeholder="Введите ваш email...">
+        <label for="email"></label>
+        <h3>Ваш номер телефона:</h3>
+        <input type="tel" id="tel" class="tel" placeholder="Введите ваш номер телефона...">
+        <label for="tel"></label>
+
+        <h2>Оставьте отзыв о нас</h2>
+
+        <label id="radio1" class="radio">
+            <input type="radio" name="reviewRadio" id="radio1" value="good-service">
+            Все понравилось !
+        </label>
+
+        <label id="radio2" class="radio">
+            <input type="radio" name="reviewRadio" id="radio2" value="bad-service">
+            Обслуживание ужасное !
+        </label>
+
+        <label id="radio3" class="radio">
+            <input type="radio" name="reviewRadio" id="radio3" value="bad-product">
+            Плохое качество продукта !
+        </label>
+
+        <h2>В каком горде вы находитесь ?</h2>
+        <select name="selectCity" id="city">
+            <option value="Kiew">Киев</option>
+            <option value="Dnipro">Днепр</option>
+            <option value="Kharkiv">Харьков</option>
+            <option value="Odesa">Одесса</option>
+        </select>
+
+        <h2>Оставьте сообщение или пожелание для нас !</h2>
+        <textarea name="message" id="" cols="10" rows="8"></textarea>
+
+        <button type="submit" name="submit-btn">Отправить форму</button>
+    </form>
+
+    <script src="./scrips.js"></script>
+</body>
+</html>

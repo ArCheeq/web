@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .american-ball {
+            width: 400px;
+            height: 200px;
+            background-image: url(./img/ball.png);
+            background-size: 400px 200px;
+            background-position: center;
+            background-repeat: none;
+
+            margin: 0px auto;
+            clip-path: ellipse(50% 48% at 51% 49%);
+        }
+
+        .football {
+            width: 200px;
+            height: 200px;
+            margin: 0px auto;
+            background-image: url(./img/football.png);
+            background-size: 200px 200px;
+            background-position: center;
+            background-repeat: none;
+
+            border: 1px solid black;
+            border-radius: 50%;    
+        }
+
+        .star {
+            width: 200px;
+            height: 200px;
+            margin: 0px auto;
+
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+            background-color: yellow;
+        }
+
+        .arrow-right {
+            width: 200px;
+            height: 200px;
+            margin: 0px auto;
+
+            background-color: red;
+            clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Эллипс</h2>
+    <div class="american-ball"></div>
+    <h2>Круг</h2>
+    <div class="football"></div>
+    <h2>Звезда</h2>
+    <div class="star"></div>
+    <h2>Стрелка на право</h2>
+    <div class="arrow-right"></div>
+</body>
+</html>
