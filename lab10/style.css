@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    background-color: #224D84;
+}
+
+form {
+    margin: 100px auto;
+    background-color: #fff;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+form > input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4095FB;
+    margin-top: 30px;
+    padding: 15px;
+    border: none; 
+    border-radius: 25px;
+}

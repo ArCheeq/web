@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lab10</title>
+</head>
+<body>
+    <form action="#">
+        <h2>Форма регистрации</h2>
+        <p>Введите почту: </p>
+        <input type="text" class="email" placeholder="Введите почту...">
+        <p>Введите пароль: </p>
+        <input type="text" class="password" data-order="1" placeholder="Введите пароль...">
+        <p>Подтвердите пароль: </p>
+        <input type="text" class="password" data-order="2" placeholder="Подтвердите пароль...">
+
+        <h3>Укажите пол</h3>
+        <label for="man">
+            <input type="radio" value="man" id="man" name="gender"/> Мужской
+        </label>
+        <label for="woman">
+            <input type="radio" value="woman" id="woman" name="gender"/> Женский
+        </label>
+
+        <h3>Укажите изучаемые технології</h3>
+        <label for="HTML">
+            <input type="checkbox" value="HTML" id="HTML"> HTML5
+        </label>
+        <label for="CSS">
+            <input type="checkbox" value="CSS" id="CSS"> CSS
+        </label>
+        <label for="JS">
+            <input type="checkbox" value="JS" id="JS"> JS
+        </label>
+
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
